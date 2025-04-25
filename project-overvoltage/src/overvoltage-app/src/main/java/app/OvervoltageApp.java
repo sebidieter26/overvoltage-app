@@ -365,7 +365,7 @@ public class OvervoltageApp extends Application {
                                                 }
                                             }
                                         } catch (Exception e) {
-                                            log("Nu s-au putut extrage date din șirul brut: " + e.getMessage());
+                                            log("Nu s-au putut extrage date din sirul brut: " + e.getMessage());
                                         }
                                     }
                                 } else {
@@ -391,7 +391,7 @@ public class OvervoltageApp extends Application {
                                         } else if (line.contains("Tensiunea de pe pin:")) {
                                             readingVoltage = true;
                                         } else {
-                                            // Încercăm să extragem direct o valoare numerică
+
                                             try {
                                                 if (line.matches("\\d*\\.?\\d+")) {
                                                     voltage = Double.parseDouble(line);
@@ -448,7 +448,7 @@ public class OvervoltageApp extends Application {
             log("EROARE: Nu s-a putut deschide portul " + portName +
                     " (Cod eroare: " + errorCode + ", Location: " + errorLocation + ")");
 
-            // Verificări suplimentare pentru cauze comune
+
             String errorMessage = "Nu s-a putut deschide portul " + portName;
             if (errorCode == 5) {
                 errorMessage += ". Portul este deja folosit de alt program.";
@@ -477,9 +477,7 @@ public class OvervoltageApp extends Application {
             if (voltage > THRESHOLD_VOLTAGE) {
                 statusIndicator.setFill(Color.RED);
 
-                if (voltageSeries.getData().size() <= 1 ||
-                        (voltageSeries.getData().size() > 1 &&
-                                (double)voltageSeries.getData().get(voltageSeries.getData().size() - 2).getYValue() <= THRESHOLD_VOLTAGE)) {
+                if (voltageSeries.getData().size() <= 1 || (voltageSeries.getData().size() > 1 && (double)voltageSeries.getData().get(voltageSeries.getData().size() - 2).getYValue() <= THRESHOLD_VOLTAGE)) {
                     showAlert("ALERTA", "Supraalimentare! Tensiunea a depasit pragul de " + THRESHOLD_VOLTAGE + " V.");
                 }
             } else {
@@ -501,7 +499,7 @@ public class OvervoltageApp extends Application {
     private void log(String message) {
         Platform.runLater(() -> {
             logArea.appendText(message + "\n");
-            // Auto-scroll la ultima linie
+
             logArea.setScrollTop(Double.MAX_VALUE);
         });
     }
