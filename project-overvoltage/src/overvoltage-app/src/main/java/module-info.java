@@ -4,6 +4,4 @@ module ace.overvoltageapp {
     requires com.fazecast.jSerialComm;
 
     exports app;
-    exports controller;
-    exports ui;
 }
