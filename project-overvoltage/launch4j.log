@@ -1,0 +1,21 @@
+
+
+Version:	3.50
+CmdLine:	C:\proiecte\overvoltage-app\project-overvoltage\overvoltage-app.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\proiecte\overvoltage-app\project-overvoltage\.
+Requires JDK:	Yes
+Requires 64-Bit: No
+Java min ver:	1.021.000_002
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot
+Substitute:	PATH = C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin;C:\Program Files\Eclipse Adoptium\jre-21.0.2.13-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\MATLAB\R2022b\runtime\win64;C:\Program Files\MATLAB\R2022b\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Users\guran\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Users\guran\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin;;C:\Users\guran\AppData\Local\GitHubDesktop\bin;C:\Users\guran\AppData\Roaming\Python\Python312\Scripts;;C:\Program Files\JetBrains\PyCharm Community Edition 2024.2.4\bin;;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin
+JRE paths:	C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin;C:\Program Files\Eclipse Adoptium\jre-21.0.2.13-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\MATLAB\R2022b\runtime\win64;C:\Program Files\MATLAB\R2022b\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Users\guran\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Users\guran\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin;;C:\Users\guran\AppData\Local\GitHubDesktop\bin;C:\Users\guran\AppData\Roaming\Python\Python312\Scripts;;C:\Program Files\JetBrains\PyCharm Community Edition 2024.2.4\bin;;C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin
+Check launcher:	C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin\javac.exe (OK)
+Version string: 1.021.000_002 / 64-Bit (OK)
+Launcher:	C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin\javaw.exe
+Launcher args:	-jar "C:\proiecte\overvoltage-app\project-overvoltage\overvoltage-app.exe"
+Args length:	74/32768 chars
+Exit code:	0
